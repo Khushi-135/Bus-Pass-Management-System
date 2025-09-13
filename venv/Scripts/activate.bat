@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\kg956\Desktop\project-2.0\OnlineBus-Pass-System\venv
+=======
+set VIRTUAL_ENV=C:\Users\kg956\Desktop\project-2.0\venv
+>>>>>>> dc30835f4e539ed615ecbdcb23785b8e334e1743
 
 if not defined PROMPT set PROMPT=$P$G
 
